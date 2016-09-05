@@ -40,11 +40,5 @@ public class MainActivity extends AppCompatActivity{
             answer=answer+Integer.toString(Integer.parseInt(op1.getText().toString())*Integer.parseInt(op2.getText().toString()));
             ans.setText(answer);
         }
-        else if(bttn.getId()==R.id.divide)
-        {
-            answer=ans.getText().toString();
-            answer=answer+Float.toString(Float.parseFloat(op1.getText().toString())/Float.parseFloat(op2.getText().toString()));
-            ans.setText(answer);
-        }
     }
 }
