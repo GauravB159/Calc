@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calc</string>
+    <string name="op1">+</string>
+    <string name="op2">-</string>
+    <string name="op3">*</string>
+    <string name="op4">/</string>
+    <string name="ans">Ans:</string>
+</resources>
